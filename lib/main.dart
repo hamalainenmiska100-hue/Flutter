@@ -167,17 +167,17 @@ class ServicesSection extends StatelessWidget {
       {
         'icon': Icons.design_services,
         'title': 'Suunnittelu',
-        'text': 'Tyylikäs ja selkeä ulkoasu.'
+        'text': 'Tyylikäs ja selkeä ulkoasu.',
       },
       {
         'icon': Icons.phone_android,
         'title': 'Responsiivisuus',
-        'text': 'Toimii puhelimella, tabletilla ja tietokoneella.'
+        'text': 'Toimii puhelimella, tabletilla ja tietokoneella.',
       },
       {
         'icon': Icons.speed,
         'title': 'Nopeus',
-        'text': 'Kevyt ja nopea käyttökokemus.'
+        'text': 'Kevyt ja nopea käyttökokemus.',
       },
     ];
 
@@ -271,9 +271,9 @@ class AboutSection extends StatelessWidget {
                 ),
           ),
           const SizedBox(height: 20),
-          const ConstrainedBox(
-            constraints: BoxConstraints(maxWidth: 800),
-            child: Text(
+          ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 800),
+            child: const Text(
               'Rakennamme moderneja, selkeitä ja käyttäjäystävällisiä digitaalisia ratkaisuja Flutterilla. '
               'Tätä pohjaa voi muokata helposti omalle yritykselle, portfoliolle tai projektisivulle.',
               textAlign: TextAlign.center,
