@@ -1,0 +1,11 @@
+{
+  "name": "Flutter Sivusto",
+  "short_name": "Sivusto",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2196f3",
+  "description": "Flutterilla tehty sivusto.",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false
+}
